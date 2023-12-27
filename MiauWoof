@@ -64,7 +64,7 @@ getgenv().keys = {
     'SyrexHubv2-2356jdeIIHS'
 }
 
-getgenv().validKey = false
+getgenv().validKey = true
 
 for _, key in ipairs(getgenv().keys) do
     if key == getgenv().key then
